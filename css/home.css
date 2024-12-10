@@ -1,0 +1,219 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+    background-color: #d8dfdf;
+    /* #d8dfdf,  #d8dff1 */
+    color: #333;
+    font-family: 'Barlow', sans-serif !important;
+}
+
+
+.main-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url('../image/h1.jpeg?text=Menswear+Fashion+Model');
+    background-size: cover;
+    background-position: center;
+    /* color: rgb(0, 255, 115); */
+    text-align-last: center;
+
+
+}
+
+.main-banner h1,
+.main-banner span {
+    background-color: rgba(224, 224, 223, 0.5); 
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid rgb(224, 224, 223);  
+
+}
+
+.main-banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main-banner span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.button-group a {
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.modelpic {
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+
+.modelpic:hover {
+    transform: scale(1.1);
+}
+
+.modelpic {
+    border: 5px solid rgb(0, 0, 0);
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+#heading2 {
+    padding-right: 20px;
+    font-style: bold;
+    text-shadow: #ff0000;
+    text-align: center;
+}
+
+#model_pic {
+    padding: 20px;
+    height: auto;
+    /* border: 4px double green; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-gap: 75px; */
+}
+
+
+.footer-col .footer-widget .logo-sec-mall .footer-logo {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+#footer-widgets {
+    margin-top: 70px;
+    padding: 0px !important;
+    background-color: #0b0b0bf2;
+    color: rgb(255, 250, 250);
+    font-family: Arial, sans-serif;
+}
+
+#footer-widgets .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#footer-widgets .inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-col .widget_text {
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+}
+
+.footer-col .footer-widget {
+    padding: 15px;
+}
+
+.footer-col .footer-widget .main-footerhead {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #eaeaea;
+}
+
+.footer-col .footer-widget .footer-link a {
+    display: block;
+    color: #eaeaea;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-col .footer-widget .footer-link a:hover {
+    color: #ff6600;
+}
+
+.footer-col .footer-widget .socialicon-mall a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-col .footer-widget .socialicon-mall img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.footer-col .footer-widget .socialicon-mall img:hover {
+    transform: scale(1.1);
+}
+
+.footer-col .footer-widget .content img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-color: white;
+
+}
+
+.footer-col .footer-widget .footer-link .mail {
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+.footer-col .footer-widget .footer-link .mail:hover {
+    color: #ff6600;
+}
+
+.footer-col .footer-widget p {
+    font-size: 14px;
+    color: #eaeaea;
+}
+
+
+.footer-col .footer-widget .logo-sec-mall img.footer-logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    #footer-widgets .inner {
+        flex-direction: column;
+    }
+
+    .footer-col {
+        flex: 1 0 100%;
+    }
+}

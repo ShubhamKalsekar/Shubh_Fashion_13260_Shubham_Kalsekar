@@ -1,0 +1,107 @@
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-right: 50px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar .auth-buttons a {
+    color: white;
+    background-color: #007BFF;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;             
+    justify-content: space-between; 
+    align-items: center;         
+    flex-wrap: wrap;           
+}
+
+.footer .container {
+    display: flex;               
+    justify-content: space-between; 
+    width: 100%;                
+    align-items: center;        
+}
+
+.footer .copyright {
+    margin: 0;
+}
+
+.footer .footer-list {
+    list-style-type: none;
+    display: flex;               
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footer-list li {
+    margin-right: 20px;        
+}
+
+.footer .footer-link {
+    color: white;
+    text-decoration: none;       
+}
+
+.footer .footer-link:hover {
+    text-decoration: underline;  
+}
+
+.container a{
+    color: #5da0e7;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+  }
